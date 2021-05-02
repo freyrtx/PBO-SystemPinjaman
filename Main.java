@@ -11,6 +11,6 @@ public class Main {
         System.out.println("\n=====Data Nasabah=====");
         nasabah.info();
         System.out.println("\n=====Informasi Bunga=====");
-        nasabah.total();
+        nasabah.Total();
     }
 }
