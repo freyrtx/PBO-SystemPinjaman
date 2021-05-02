@@ -48,6 +48,7 @@ public class Bunga extends DataBank {
                     System.out.println("Bunga Bulan ke-"+i+" : "+this.bunga);
                     System.out.println("Angsuran ke-"+i+" : "+this.angsuran);
                 }
+                break;
             }
             case 2: if(this.jenisBunga==1){
                 pokok = super.jumlah / super.jangka;
@@ -68,6 +69,7 @@ public class Bunga extends DataBank {
                     System.out.println("Bunga Bulan ke-"+i+" : "+this.bunga);
                     System.out.println("Angsuran ke-"+i+" : "+this.angsuran);
                 }
+                break;
             }
             case 3: if(this.jenisBunga==1){
                 pokok = super.jumlah / super.jangka;
@@ -88,6 +90,7 @@ public class Bunga extends DataBank {
                     System.out.println("Bunga Bulan ke-"+i+" : "+this.bunga);
                     System.out.println("Angsuran ke-"+i+" : "+this.angsuran);
                 }
+                break;
             }
             case 4: if(this.jenisBunga==1){
                 pokok = super.jumlah / super.jangka;
@@ -108,6 +111,7 @@ public class Bunga extends DataBank {
                     System.out.println("Bunga Bulan ke-"+i+" : "+this.bunga);
                     System.out.println("Angsuran ke-"+i+" : "+this.angsuran);
                 }
+                break;
             }
             case 5: if(this.jenisBunga==1){
                 pokok = super.jumlah / super.jangka;
@@ -128,6 +132,7 @@ public class Bunga extends DataBank {
                     System.out.println("Bunga Bulan ke-"+i+" : "+this.bunga);
                     System.out.println("Angsuran ke-"+i+" : "+this.angsuran);
                 }
+                break;
             }
         }
     }
