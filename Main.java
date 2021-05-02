@@ -4,7 +4,7 @@ public class Main {
         System.out.println("\n===Input Data===");
         nasabah.input();
         nasabah.add();
-        System.out.println("\n===Pilih Jenis Bunga===");
+        System.out.println("\n===Pilih Jenis Kredit===");
         nasabah.pilihKredit();
         System.out.println("\n===Pilih Jenis Bunga===");
         nasabah.pilihBunga();
