@@ -13,6 +13,7 @@ class DataBank extends KTP{
         jumlah = input.nextInt();
         System.out.println("Jangka Waktu(bulan) : ");
         jangka = input.nextInt();
+        input.nextLine();
     }
 
     public void info(){
