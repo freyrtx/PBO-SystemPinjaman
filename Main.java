@@ -1,5 +1,6 @@
 public class Main {
     public static void main(String[] args) {
+        try{
         Bunga nasabah = new Bunga();
         System.out.println("\n===Input Data===");
         nasabah.input();
@@ -12,5 +13,9 @@ public class Main {
         nasabah.info();
         System.out.println("\n=====Informasi Bunga=====");
         nasabah.Total();
+        }
+        catch(Exception exc){
+            System.err.println(" Input Yang Anda Masukan Salah.");
+        }
     }
 }
