@@ -47,7 +47,7 @@ public class Pinjaman extends javax.swing.JFrame implements HitungAngsuran {
             angsur.setMasa(1);
         }
         angsur.setPokok(angsur.getAjuan()/angsur.getJangka()/angsur.getMasa());
-        angsur.setBunga(angsur.getAjuan() * 0.41/100 /30);
+        angsur.setBunga(angsur.getAjuan() * 0.5/100 /30);
         
         double a;
         a = angsur.getPokok() + angsur.getbunga();
@@ -69,7 +69,7 @@ public class Pinjaman extends javax.swing.JFrame implements HitungAngsuran {
             angsur.setMasa(1);
         }
         angsur.setPokok(angsur.getAjuan() / angsur.getJangka() / angsur.getMasa());
-        angsur.setBunga(angsur.getAjuan() * 0.41/100 /30);
+        angsur.setBunga(angsur.getAjuan() * 0.5/100 /30);
         angsur.setAngs(angsur.getPokok() + angsur.getbunga());
         
         double b;
